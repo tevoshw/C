@@ -1,6 +1,11 @@
-#include <stdio.h>
+// WHY IN C IT'S NECESSARY TO USE A LIB TO I/O? -> Cuz the language was not projected for that, but for control. perfomance and portability
 
-int main(){
-    printf("Hello World");
-    return 0;
+#include <stdio.h> // LIB STD (Standard + I/o) 
+
+int main() // MAIN IT'S A SPECIAL, RUN WITHOUT CALL THE FUNCTION
+
+{
+
+    printf("Hello World"); // PRINT
+    return 0; // THIS CLOSES THE PROGRAM (FOR NOT LEAK MEMORY)
 }
